@@ -6,6 +6,23 @@ number = 0
 # possible
 number = "change string"
 
+# array
+fruits = ["apple", "banana", "orange"]
+print(fruits[1]) # banana
+print(fruits[-1]) # orange
+print(fruits[1:3]) # [banana, orange]
+fruits.append("pineapple") # 추가
+
+# dict
+person = {
+    "name": "Alice",
+    "age": 30
+}
+print(person['name']) # Alice
+
+# set
+my_set = {1, 2, 3, 3, 3}
+print(my_set) # {1, 2, 3}
 
 # function
 def add(a: int, b: int) -> int:
@@ -22,3 +39,4 @@ class Person:
         print(f"Hi, I'm {self.name}, {self.age} years old.")
 p1 = Person("Alice", 30)
 p1.introduce()
+
